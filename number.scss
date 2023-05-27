@@ -1,0 +1,70 @@
+body{
+   background-image: url(https://t3.ftcdn.net/jpg/03/69/00/58/360_F_369005893_UYbUUUHDiB0HT7vs7EpO0JZ4vf830R5K.jpg);
+   height: 1000px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow-x: hidden;
+   opacity: 1;
+  
+.form{
+
+      position: relative;
+      top: 20%;
+      left: 150px;
+
+   label{
+      padding: 5px;
+      padding-top: 5px;
+      color: aqua;
+      font-size: 20px;
+     
+
+   }
+   input[type="number"] {
+      height: 30px;
+      width: 230px;
+      padding: 4px;
+      position: relative;
+      top: 5px;
+      background-color: white;
+      
+      outline: none;
+      border: 1px solid #ddd;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+       &::placeholder{
+         color: blue;
+       }
+   }
+  button{
+   height: 50px;
+   width: 230px;
+   outline: none;
+   border-radius: 20px;
+   position: relative;
+   top: 20px;
+   background-color: orange;
+   font-size: 20px;
+   color: white;
+   &:hover{
+      background-color: rgb(60, 255, 0);
+      color: black;
+   }
+
+  }
+   
+}
+
+   .tablee{
+      position: relative;
+      left: 700px;
+      bottom: 120px;
+      table{
+         height: 300px;
+         width: 300px;
+         background-color: white;
+         
+      }
+   }
+
+}
