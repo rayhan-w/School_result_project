@@ -46,6 +46,7 @@ body{
    background-color: orange;
    font-size: 20px;
    color: white;
+   cursor: pointer;
    &:hover{
       background-color: rgb(60, 255, 0);
       color: black;
@@ -65,6 +66,15 @@ body{
          background-color: white;
          
       }
+
+      .rc1{
+         color: red;
+      }
+      .rc2{
+         color: blue;
+      }
    }
+
+
 
 }

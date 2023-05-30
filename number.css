@@ -45,6 +45,7 @@ body .form button {
   background-color: orange;
   font-size: 20px;
   color: white;
+  cursor: pointer;
 }
 body .form button:hover {
   background-color: rgb(60, 255, 0);
@@ -59,4 +60,10 @@ body .tablee table {
   height: 300px;
   width: 300px;
   background-color: white;
+}
+body .tablee .rc1 {
+  color: red;
+}
+body .tablee .rc2 {
+  color: blue;
 }/*# sourceMappingURL=number.css.map */
