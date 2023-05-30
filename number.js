@@ -44,7 +44,7 @@
 
 
   let count = a + b + c + d;
-  let percentage = (count / 500) * 100;
+  let percentage = (count / 400) * 100;
 
   document.getElementById("count").innerHTML = count;
   document.getElementById("per").innerHTML = percentage;
